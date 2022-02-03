@@ -1,0 +1,38 @@
+#$ TITLE: JB OSD for DJI
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: 
+#$ AUTHOR: Joshua Bardwell
+#$ DESCRIPTION: JB's OSD preset for DJI builds. Option to add GPS info if the quad has GPS.
+
+#$ INCLUDE: presets/4.3/osd/defaults.txt 
+
+set osd_vbat_pos = 257
+set osd_rssi_pos = 2486
+set osd_rssi_dbm_pos = 161
+set osd_tim_1_pos = 353
+set osd_tim_2_pos = 321
+set osd_flymode_pos = 2241
+set osd_throttle_pos = 313
+set osd_vtx_channel_pos = 193
+set osd_craft_name_pos = 33
+set osd_warnings_pos = 2441
+set osd_avg_cell_voltage_pos = 2516
+set osd_disarmed_pos = 2411
+set osd_flip_arrow_pos = 65
+set osd_core_temp_pos = 248
+set osd_log_status_pos = 97
+
+#$ OPTION BEGIN (UNCHECKED): GPS
+
+set osd_gps_speed_pos = 2209
+set osd_gps_lon_pos = 2081
+set osd_gps_lat_pos = 2049
+set osd_gps_sats_pos = 2113
+set osd_home_dir_pos = 2275
+set osd_home_dist_pos = 2145
+set osd_flight_dist_pos = 184
+set osd_altitude_pos = 2177
+
+#$ OPTION END

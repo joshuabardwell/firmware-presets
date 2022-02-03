@@ -1,0 +1,123 @@
+#$ TITLE: JB OSD for analog and Shark Byte
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: 
+#$ AUTHOR: Joshua Bardwell
+#$ DESCRIPTION: JB's OSD preset for analog and Shark Byte builds. Must select either NTSC or PAL depending on which camera you have.
+
+#$ INCLUDE: presets/4.3/osd/defaults.txt 
+
+#$ OPTION BEGIN (UNCHECKED): NTSC
+set vcd_video_system = NTSC
+set osd_warn_batt_not_full = OFF
+set osd_warn_esc_fail = OFF
+set osd_warn_core_temp = OFF
+set osd_warn_link_quality = ON
+set osd_warn_rssi_dbm = ON
+set osd_rssi_alarm = 40
+set osd_cap_alarm = 5000
+set osd_vbat_pos = 384
+set osd_rssi_pos = 474
+set osd_link_quality_pos = 2423
+set osd_rssi_dbm_pos = 2415
+set osd_tim_1_pos = 53
+set osd_tim_2_pos = 2455
+set osd_flymode_pos = 2406
+set osd_throttle_pos = 2400
+set osd_vtx_channel_pos = 16
+set osd_crosshairs_pos = 236
+set osd_ah_pos = 199
+set osd_current_pos = 2439
+set osd_mah_drawn_pos = 2447
+set osd_craft_name_pos = 2076
+set osd_gps_speed_pos = 271
+set osd_gps_lon_pos = 82
+set osd_gps_lat_pos = 65
+set osd_gps_sats_pos = 1410
+set osd_home_dir_pos = 302
+set osd_home_dist_pos = 303
+set osd_compass_bar_pos = 265
+set osd_altitude_pos = 246
+set osd_pid_roll_pos = 135
+set osd_pid_pitch_pos = 167
+set osd_pid_yaw_pos = 199
+set osd_debug_pos = 0
+set osd_power_pos = 320
+set osd_pidrate_profile_pos = 344
+set osd_warnings_pos = 2048
+set osd_avg_cell_voltage_pos = 2432
+set osd_pit_ang_pos = 256
+set osd_rol_ang_pos = 288
+set osd_battery_usage_pos = 391
+set osd_disarmed_pos = 75
+set osd_nheading_pos = 310
+set osd_nvario_pos = 278
+set osd_esc_tmp_pos = 82
+set osd_esc_rpm_pos = 83
+set osd_stat_tim_1 = ON
+set osd_stat_max_spd = OFF
+set osd_stat_battery = ON
+set osd_stat_min_rssi = OFF
+set osd_stat_min_link_quality = ON
+set osd_stat_total_flights = ON
+set osd_stat_total_time = ON
+set osd_stat_min_rssi_dbm = ON
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): PAL
+set vcd_video_system = PAL
+set osd_warn_batt_not_full = OFF
+set osd_warn_esc_fail = OFF
+set osd_warn_core_temp = OFF
+set osd_warn_link_quality = ON
+set osd_warn_rssi_dbm = ON
+set osd_rssi_alarm = 40
+set osd_cap_alarm = 5000
+set osd_vbat_pos = 384
+set osd_rssi_pos = 474
+set osd_link_quality_pos = 2519
+set osd_rssi_dbm_pos = 2511
+set osd_tim_1_pos = 53
+set osd_tim_2_pos = 2551
+set osd_flymode_pos = 2502
+set osd_throttle_pos = 2496
+set osd_vtx_channel_pos = 16
+set osd_crosshairs_pos = 236
+set osd_ah_pos = 199
+set osd_current_pos = 2536
+set osd_mah_drawn_pos = 2544
+set osd_craft_name_pos = 2076
+set osd_gps_speed_pos = 271
+set osd_gps_lon_pos = 82
+set osd_gps_lat_pos = 65
+set osd_gps_sats_pos = 1410
+set osd_home_dir_pos = 302
+set osd_home_dist_pos = 303
+set osd_compass_bar_pos = 265
+set osd_altitude_pos = 246
+set osd_pid_roll_pos = 135
+set osd_pid_pitch_pos = 167
+set osd_pid_yaw_pos = 199
+set osd_debug_pos = 0
+set osd_power_pos = 320
+set osd_pidrate_profile_pos = 344
+set osd_warnings_pos = 2048
+set osd_avg_cell_voltage_pos = 2528
+set osd_pit_ang_pos = 256
+set osd_rol_ang_pos = 288
+set osd_battery_usage_pos = 391
+set osd_disarmed_pos = 75
+set osd_nheading_pos = 310
+set osd_nvario_pos = 278
+set osd_esc_tmp_pos = 82
+set osd_esc_rpm_pos = 83
+set osd_stat_tim_1 = ON
+set osd_stat_max_spd = OFF
+set osd_stat_battery = ON
+set osd_stat_min_rssi = OFF
+set osd_stat_min_link_quality = ON
+set osd_stat_total_flights = ON
+set osd_stat_total_time = ON
+set osd_stat_min_rssi_dbm = ON
+#$ OPTION END

@@ -1,0 +1,18 @@
+#$ TITLE: JB all modes one channel aux configuration
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: MODES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: 
+#$ AUTHOR: Joshua Bardwell
+#$ DESCRIPTION: JB's "all modes one channel" aux configuration
+#$ DESCRIPTION: To learn about this method: https://youtu.be/Ut7Hpmmy_Us
+
+#$ INCLUDE: presets/4.3/modes/defaults.txt 
+
+aux 0 0 0 1825 1925 0 0
+aux 1 0 0 1600 1700 0 0
+aux 2 0 0 1375 1575 0 0
+aux 3 1 0 1600 1800 0 0
+aux 4 13 0 1925 1975 0 0
+aux 5 13 0 1700 1750 0 0
+aux 6 35 0 1375 1575 0 0
