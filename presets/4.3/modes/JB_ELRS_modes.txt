@@ -1,4 +1,4 @@
-#$ TITLE: JB ExoressLRS aux configuration (no all-modes-one-channel)
+#$ TITLE: JB ExpressLRS aux configuration (no all-modes-one-channel)
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
