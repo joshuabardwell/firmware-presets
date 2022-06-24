@@ -244,8 +244,8 @@
     },
     {
       "fullPath": "presets/4.3/modes/JB_ELRS_modes.txt",
-      "hash": "01f4fee4eda987333bb3ed91fe8fa277d49d7cc218711d41c859b91c5ba1ae2d",
-      "title": "JB all modes one channel aux configuration",
+      "hash": "9d0ce4f7305083beb2b10677b9bc7741839bbc36412afb4903ae39221d8955f1",
+      "title": "JB ExoressLRS aux configuration (no all-modes-one-channel)",
       "firmware_version": [
         "4.3"
       ],
@@ -274,7 +274,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/JB_analog_sharkbyte_OSD.txt",
-      "hash": "927634618a222ea354e139c71532f2ad7dafc526785cbb5a676a30796b304ba7",
+      "hash": "f47aa6c50cc347a47f63cbd47bf307fd0c89cf9bac3e666cc36fdd6cc490e439",
       "title": "JB OSD for analog and Shark Byte",
       "firmware_version": [
         "4.3"

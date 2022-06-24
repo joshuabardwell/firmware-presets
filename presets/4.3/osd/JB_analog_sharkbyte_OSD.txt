@@ -124,7 +124,8 @@ set osd_stat_min_rssi_dbm = ON
 
 
 #$ OPTION BEGIN (UNCHECKED): MSP
-set vcd_video_system = auto
+set vcd_video_system = MSP
+set osd_displayport_device = MSP
 set osd_warn_batt_not_full = OFF
 set osd_warn_esc_fail = OFF
 set osd_warn_core_temp = OFF
