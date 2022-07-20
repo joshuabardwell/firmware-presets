@@ -128,6 +128,7 @@
       "4.3"
     ],
     "category": [
+      "BNF",
       "FILTERS",
       "LEDS",
       "MODES",
@@ -173,6 +174,19 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/4.3/bnf/skyeliner_solderless_JB_mods.txt",
+      "hash": "2fee4aafbf483340d403fe3a9a62b6162ed7c7d415e8216cb06433c3fa8265e6",
+      "title": "RR Solderless Skyeliner T-Motor F7",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [],
+      "author": "Joshua Bardwell",
+      "priority": 0
+    },
     {
       "fullPath": "presets/4.3/filters/defaults.txt",
       "hash": "cd9af0626bc1e8be0738e39995b8d77b0494ee78b83815d4dab261d66c5ae5fd",
