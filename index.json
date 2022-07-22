@@ -258,7 +258,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/JB_ELRS_modes.txt",
-      "hash": "06316b38616a378e1f97a519f554600a1dbcce3b55ca47ab126bda1fbfebe364",
+      "hash": "35e928fdf072737084f99192f300b6c4208dbc0395542e8046283ff7dc5f3b6a",
       "title": "JB ExpressLRS aux configuration (no all-modes-one-channel)",
       "firmware_version": [
         "4.3"
