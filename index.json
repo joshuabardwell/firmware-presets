@@ -288,21 +288,8 @@
     },
     {
       "fullPath": "presets/4.3/osd/JB_analog_sharkbyte_OSD.txt",
-      "hash": "cdb5c2e16c74d3812a3e57d635630947348e75491ac0d3c6eb9e9e1c1dc02fdc",
-      "title": "JB OSD for analog and Shark Byte",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [],
-      "author": "Joshua Bardwell",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/osd/JB_DJI_OSD.txt",
-      "hash": "cf3d02ec763b1a97e37ffd51f5606d4861334d9d2a1d25d9b27f3cdec86f0157",
-      "title": "JB OSD for DJI",
+      "hash": "7bb192609b3972aabbee0bf418e917eab970e12ccf21caf8d610d7ceddd27c30",
+      "title": "JB OSD Presets",
       "firmware_version": [
         "4.3"
       ],

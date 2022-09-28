@@ -1,4 +1,4 @@
-#$ TITLE: JB OSD for analog and Shark Byte
+#$ TITLE: JB OSD Presets
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
