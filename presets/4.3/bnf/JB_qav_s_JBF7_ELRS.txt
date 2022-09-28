@@ -1,0 +1,153 @@
+#$ TITLE: JB "perfect freestyle build"
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: BNF
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: 
+#$ AUTHOR: Joshua Bardwell
+#$ DESCRIPTION: JB's "perfect freestyle build" with QAV-S frame, JBF7 V2 FC, ELRS receiver, DJI vTX
+# 
+
+# version
+# Betaflight / STM32F7X2 (S7X2) 4.3.1 Jul 13 2022 / 03:36:10 (8d4f005) MSP API: 1.44
+# config: manufacturer_id: IFRC, board_name: JBF7_V2, version: edcd244b, date: 2022-06-29T02:24:46Z
+
+# start the command batch
+batch start
+
+board_name JBF7_V2
+manufacturer_id IFRC
+
+# name: JB
+
+# feature
+feature -RX_PARALLEL_PWM
+
+# serial
+serial 0 1 115200 57600 0 115200
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 1 1 1300 1700 0 0
+aux 2 13 2 1700 2100 0 0
+aux 3 35 1 1700 2100 0 0
+
+# master
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 600
+set dyn_notch_q = 500
+set dyn_notch_min_hz = 100
+set dyn_notch_max_hz = 800
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 600
+set acc_calibration = -29,2,57,1
+set min_check = 1010
+set max_check = 1990
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set motor_output_reordering = 3,2,1,0,4,5,6,7
+set align_board_yaw = 180
+set small_angle = 180
+set pid_process_denom = 2
+set simplified_gyro_filter_multiplier = 120
+set report_cell_voltage = ON
+set osd_warn_batt_not_full = OFF
+set osd_warn_esc_fail = OFF
+set osd_warn_core_temp = OFF
+set osd_warn_link_quality = ON
+set osd_rssi_alarm = 40
+set osd_cap_alarm = 5000
+set osd_vbat_pos = 384
+set osd_rssi_pos = 474
+set osd_link_quality_pos = 2455
+set osd_rssi_dbm_pos = 2447
+set osd_tim_1_pos = 53
+set osd_tim_2_pos = 2487
+set osd_flymode_pos = 2438
+set osd_throttle_pos = 2432
+set osd_vtx_channel_pos = 16
+set osd_crosshairs_pos = 236
+set osd_ah_pos = 199
+set osd_current_pos = 2473
+set osd_mah_drawn_pos = 2481
+set osd_craft_name_pos = 2076
+set osd_gps_speed_pos = 271
+set osd_gps_lon_pos = 82
+set osd_gps_lat_pos = 65
+set osd_gps_sats_pos = 1410
+set osd_home_dir_pos = 302
+set osd_home_dist_pos = 303
+set osd_compass_bar_pos = 265
+set osd_altitude_pos = 246
+set osd_pid_roll_pos = 135
+set osd_pid_pitch_pos = 167
+set osd_pid_yaw_pos = 199
+set osd_debug_pos = 0
+set osd_power_pos = 320
+set osd_pidrate_profile_pos = 344
+set osd_warnings_pos = 2048
+set osd_avg_cell_voltage_pos = 2464
+set osd_pit_ang_pos = 256
+set osd_rol_ang_pos = 288
+set osd_battery_usage_pos = 391
+set osd_disarmed_pos = 75
+set osd_nheading_pos = 310
+set osd_nvario_pos = 278
+set osd_esc_tmp_pos = 82
+set osd_esc_rpm_pos = 83
+set osd_stat_tim_1 = ON
+set osd_stat_max_spd = OFF
+set osd_stat_battery = ON
+set osd_stat_min_rssi = OFF
+set osd_stat_min_link_quality = ON
+set osd_stat_total_flights = ON
+set osd_stat_total_time = ON
+set osd_stat_min_rssi_dbm = ON
+set osd_displayport_device = MSP
+set displayport_msp_serial = 0
+set name = JB
+
+profile 0
+
+# profile 0
+set anti_gravity_gain = 4000
+set p_pitch = 61
+set i_pitch = 109
+set d_pitch = 44
+set f_pitch = 227
+set p_roll = 58
+set i_roll = 104
+set d_roll = 39
+set f_roll = 218
+set p_yaw = 58
+set i_yaw = 104
+set f_yaw = 218
+set d_min_roll = 39
+set d_min_pitch = 44
+set feedforward_smooth_factor = 30
+set feedforward_jitter_factor = 9
+set dyn_idle_min_rpm = 25
+set simplified_master_multiplier = 130
+set simplified_dmax_gain = 0
+set simplified_feedforward_gain = 140
+
+rateprofile 0
+
+# rateprofile 0
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 127
+set pitch_rc_rate = 127
+set yaw_rc_rate = 100
+set roll_expo = 40
+set pitch_expo = 40
+set roll_srate = 72
+set pitch_srate = 72
+set yaw_srate = 75
+
+# end the command batch
+batch end
+
+# 
