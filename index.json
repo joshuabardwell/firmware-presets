@@ -287,7 +287,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/osd/JB_analog_sharkbyte_OSD.txt",
+      "fullPath": "presets/4.3/osd/JB_OSD_presets.txt",
       "hash": "7bb192609b3972aabbee0bf418e917eab970e12ccf21caf8d610d7ceddd27c30",
       "title": "JB OSD Presets",
       "firmware_version": [
