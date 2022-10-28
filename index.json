@@ -188,6 +188,19 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/bnf/JB_qav_s_V2.txt",
+      "hash": "3287636653c76b8940413b27a7b8b09a20df3bd7ec82bed9d31bf05bde430ae7",
+      "title": "JB \"perfect freestyle build V2\"",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [],
+      "author": "Joshua Bardwell",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/bnf/skyeliner_solderless_JB_mods.txt",
       "hash": "2fee4aafbf483340d403fe3a9a62b6162ed7c7d415e8216cb06433c3fa8265e6",
       "title": "RR Solderless Skyeliner T-Motor F7",
