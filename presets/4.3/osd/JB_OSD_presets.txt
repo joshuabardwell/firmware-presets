@@ -4,7 +4,11 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: 
 #$ AUTHOR: Joshua Bardwell
-#$ DESCRIPTION: JB's OSD presets. Must select NTSC, PAL, HDZero/Walksnail, DJI WTFOS, or DJI Standard, depending on which system you have. DJI WTFOS refers to if you have rooted the air unit and goggles and installed the WTFOS msp-osd plugin to get full Betaflight OSD on DJI goggles. DJI Standard refers to if you are using the built-in MSP OSD on the DJI FPV goggles v2. The reason that HDZero and DJI WTFOS are not the same is that on the DJI goggles, you have to push the lower 2 lines of the OSD up by one line to avoid overlapping the DJI OSD elements. HDZero and Walksnail are the same because they both basically implement the PAL layout. The only difference between HDZero/Walksnail and PAL is the value of msp_displayport_device
+#$ DESCRIPTION: JB's OSD presets. Must select NTSC, PAL, HDZero/Walksnail, DJI WTFOS, or DJI Standard, depending on which system you have. 
+#$ DESCRIPTION: DJI WTFOS refers to if you have rooted the air unit and goggles and installed the WTFOS msp-osd plugin to get full Betaflight OSD on DJI goggles. 
+#$ DESCRIPTION: DJI Standard refers to if you are using the built-in MSP OSD on the DJI FPV goggles v2. 
+#$ DESCRIPTION: The reason that HDZero and DJI WTFOS are not the same is that on the DJI goggles, you have to push the lower 2 lines of the OSD up by one line to avoid overlapping the DJI OSD elements. 
+#$ DESCRIPTION: HDZero and Walksnail are the same because they both basically implement the PAL layout. The only difference between HDZero/Walksnail and PAL is the value of msp_displayport_device
 
 #$ INCLUDE: presets/4.3/osd/defaults.txt 
 
