@@ -4,11 +4,15 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: 
 #$ AUTHOR: Joshua Bardwell
-#$ DESCRIPTION: JB's OSD presets. Must select NTSC, PAL, HDZero, DJI WTFOS, or DJI Standard, depending on which system you have. DJI WTFOS refers to if you have rooted the air unit and goggles and installed the WTFOS msp-osd plugin to get full Betaflight OSD on DJI goggles. DJI Standard refers to if you are using the built-in MSP OSD on the DJI FPV goggles v2. The reason that HDZero and DJI WTFOS are not the same is that on the DJI goggles, you have to push the lower 2 lines of the OSD up by one line to avoid overlapping the DJI OSD elements.
+#$ DESCRIPTION: JB's OSD presets. Must select NTSC, PAL, HDZero/Walksnail, DJI WTFOS, or DJI Standard, depending on which system you have. DJI WTFOS refers to if you have rooted the air unit and goggles and installed the WTFOS msp-osd plugin to get full Betaflight OSD on DJI goggles. DJI Standard refers to if you are using the built-in MSP OSD on the DJI FPV goggles v2. The reason that HDZero and DJI WTFOS are not the same is that on the DJI goggles, you have to push the lower 2 lines of the OSD up by one line to avoid overlapping the DJI OSD elements. HDZero and Walksnail are the same because they both basically implement the PAL layout. The only difference between HDZero/Walksnail and PAL is the value of msp_displayport_device
 
 #$ INCLUDE: presets/4.3/osd/defaults.txt 
 
-#$ OPTION BEGIN (UNCHECKED): NTSC
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
+#$ OPTION_GROUP BEGIN: Select Video System
+
+#$ OPTION BEGIN (UNCHECKED): NTSC (analog)
 set vcd_video_system = NTSC
 set osd_warn_batt_not_full = OFF
 set osd_warn_esc_fail = OFF
@@ -66,7 +70,7 @@ set osd_stat_min_rssi_dbm = ON
 set osd_displayport_device = auto
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): PAL
+#$ OPTION BEGIN (UNCHECKED): PAL (analog)
 set vcd_video_system = PAL
 set osd_warn_batt_not_full = OFF
 set osd_warn_esc_fail = OFF
@@ -125,7 +129,7 @@ set osd_displayport_device = auto
 #$ OPTION END
 
 
-#$ OPTION BEGIN (UNCHECKED): HDZero
+#$ OPTION BEGIN (UNCHECKED): HDZero and Walksnail
 set vcd_video_system = MSP
 set osd_displayport_device = MSP
 set osd_warn_batt_not_full = OFF
@@ -337,3 +341,33 @@ set osd_flip_arrow_pos = 65
 set osd_core_temp_pos = 248
 set osd_log_status_pos = 97
 #$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: If using MSP, which UART is MSP on (or leave unchecked for analog)
+
+#$ OPTION BEGIN (UNCHECKED): UART 1
+set msp_displayport_serial=0
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): UART 2
+set msp_displayport_serial=1
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): UART 3
+set msp_displayport_serial=2
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): UART 4
+set msp_displayport_serial=3
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): UART 5
+set msp_displayport_serial=4
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): UART 6
+set msp_displayport_serial=5
+#$ OPTION END
+
+#$ OPTION_GROUP END

@@ -314,7 +314,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/JB_OSD_presets.txt",
-      "hash": "7bb192609b3972aabbee0bf418e917eab970e12ccf21caf8d610d7ceddd27c30",
+      "hash": "50453871372a0f818d6a9f9501b395d2ae550a5f141118376965e5fa8420356e",
       "title": "JB OSD Presets",
       "firmware_version": [
         "4.3"
@@ -323,6 +323,7 @@
       "status": "COMMUNITY",
       "keywords": [],
       "author": "Joshua Bardwell",
+      "force_options_review": true,
       "priority": 0
     },
     {
