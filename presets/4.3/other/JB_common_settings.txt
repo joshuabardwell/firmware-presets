@@ -1,0 +1,16 @@
+#$ TITLE: JB Common Settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: BNF
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: 
+#$ AUTHOR: Joshua Bardwell
+#$ DESCRIPTION: Common settings for basically all JB's quads
+
+set report_cell_voltage = ON
+set name = JB
+set beeper_dshot_beacon_tone = 1
+beacon RX_LOST
+beacon RX_SET
+set small_angle = 180
+set min_check = 1010
+set max_check = 1990

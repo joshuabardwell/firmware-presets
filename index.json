@@ -327,6 +327,19 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/other/JB_common_settings.txt",
+      "hash": "3b2ad08dcf55202a2143c2388783036a896d301f6bf76921dc39201969304d61",
+      "title": "JB Common Settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [],
+      "author": "Joshua Bardwell",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/rates/defaults.txt",
       "hash": "9d063433102e8340d3d0ad396f6dc998c7030c0b9ecc4bb2a6c5b86a5def07fe",
       "title": "Default rates",
