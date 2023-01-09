@@ -175,6 +175,19 @@
   },
   "presets": [
     {
+      "fullPath": "presets/4.3/bnf/JB_iflight_chimera_7.txt",
+      "hash": "6394a38d83c094002a4df52834fdf8dd061f640b3a0fac97f79bc394dfbc463d",
+      "title": "iFlight Chimera 7 Pro",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [],
+      "author": "Joshua Bardwell",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/bnf/JB_qav_s_JBF7_ELRS.txt",
       "hash": "1e0afe0ea58f3ffbdeb1fcf84d2df4330c3964bae28c817880980bb6bdff0a46",
       "title": "JB \"perfect freestyle build\"",
