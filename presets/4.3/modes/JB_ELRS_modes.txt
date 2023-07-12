@@ -1,10 +1,10 @@
-#$ TITLE: JB ExpressLRS aux configuration (no all-modes-one-channel)
-#$ FIRMWARE_VERSION: 4.3
+#$ TITLE: JB standard aux configuration (no all-modes-one-channel)
+#$ FIRMWARE_VERSION: 4.3,4.4
 #$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: 
 #$ AUTHOR: Joshua Bardwell
-#$ DESCRIPTION: JB's ExpressLRS aux configuration with Arm high on Aux 1
+#$ DESCRIPTION: JB's standard aux configuration with Arm high on Aux 1 for ELRS
 
 #$ INCLUDE: presets/4.3/modes/defaults.txt 
 

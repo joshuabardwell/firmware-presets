@@ -1,5 +1,5 @@
 #$ TITLE: JB racing rates (based on 533 rates)
-#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.3,4.4
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: 

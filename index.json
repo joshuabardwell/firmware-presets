@@ -125,7 +125,9 @@
   },
   "uniqueValues": {
     "firmware_version": [
-      "4.3"
+      "4.3",
+      "4.3,4.4",
+      "4.4"
     ],
     "category": [
       "BNF",
@@ -284,10 +286,10 @@
     },
     {
       "fullPath": "presets/4.3/modes/JB_all_modes_one_channel.txt",
-      "hash": "cfc185304146aa73753025c73cc3a6344c1bc03a890b0f367d8200f34504001e",
+      "hash": "8a142cd866309b7a5a67b3812ed5e0a66db64abdf94da127d863c94417b16352",
       "title": "JB all modes one channel aux configuration",
       "firmware_version": [
-        "4.3"
+        "4.3,4.4"
       ],
       "category": "MODES",
       "status": "COMMUNITY",
@@ -297,10 +299,10 @@
     },
     {
       "fullPath": "presets/4.3/modes/JB_ELRS_modes.txt",
-      "hash": "35e928fdf072737084f99192f300b6c4208dbc0395542e8046283ff7dc5f3b6a",
-      "title": "JB ExpressLRS aux configuration (no all-modes-one-channel)",
+      "hash": "5703d4c3082f30b0363973404c88d44a15422d2b2a643eb77aaba3f3f0ce3b0d",
+      "title": "JB standard aux configuration (no all-modes-one-channel)",
       "firmware_version": [
-        "4.3"
+        "4.3,4.4"
       ],
       "category": "MODES",
       "status": "COMMUNITY",
@@ -327,7 +329,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/JB_OSD_presets.txt",
-      "hash": "67bf8e343d53425f1c0e1132b9fc15ce9411c7706eb8774c211c9619be65c439",
+      "hash": "2d449b9501d540301a5352785445687ad07a3015cecca857e9e2a0dcbad178ca",
       "title": "JB OSD Presets",
       "firmware_version": [
         "4.3"
@@ -341,10 +343,10 @@
     },
     {
       "fullPath": "presets/4.3/other/JB_common_settings.txt",
-      "hash": "3b2ad08dcf55202a2143c2388783036a896d301f6bf76921dc39201969304d61",
+      "hash": "53607f7cc27b48158fa49de6adb65899ce0a32bdb7d5f989740a89edddef603f",
       "title": "JB Common Settings",
       "firmware_version": [
-        "4.3"
+        "4.3,4.4"
       ],
       "category": "BNF",
       "status": "COMMUNITY",
@@ -371,10 +373,10 @@
     },
     {
       "fullPath": "presets/4.3/rates/JB_freestyle_rates.txt",
-      "hash": "4692f4e807a2301f417b0a9a463d9b89c35d9815763a184a9d10f5eb2d2f3244",
+      "hash": "fa51cbe26a5555a39f10412131554cb6dbb56b68f0d74d5a7489b9a0b544f0d5",
       "title": "JB's freestyle rates",
       "firmware_version": [
-        "4.3"
+        "4.3,4.4"
       ],
       "category": "RATES",
       "status": "COMMUNITY",
@@ -384,10 +386,10 @@
     },
     {
       "fullPath": "presets/4.3/rates/JB_race_rates.txt",
-      "hash": "9a562c94c86e86c0cd19ed67d38325433b0873e674167b94aebfe7cc5e89e9b1",
+      "hash": "5d352129c897d10822393a6dfbeb5ab43a1d4a88831fb855e6cfce9187314568",
       "title": "JB racing rates (based on 533 rates)",
       "firmware_version": [
-        "4.3"
+        "4.3,4.4"
       ],
       "category": "RATES",
       "status": "COMMUNITY",
@@ -489,6 +491,20 @@
       ],
       "author": "Betaflight",
       "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.4/osd/JB_OSD_presets.txt",
+      "hash": "5a6c503b19477b122e8bbac3d751bf3f6317dac810dff26755924b0a6755f801",
+      "title": "JB OSD Presets",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [],
+      "author": "Joshua Bardwell",
+      "force_options_review": true,
+      "priority": 0
     }
   ]
 }

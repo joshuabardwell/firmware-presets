@@ -1,5 +1,5 @@
 #$ TITLE: JB all modes one channel aux configuration
-#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.3,4.4
 #$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: 
